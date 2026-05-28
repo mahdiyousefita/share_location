@@ -1,0 +1,6 @@
+{
+  "name": "Live Share",
+  "description": "Real-time location sharing tracking app with active safety controls, history log, and customizable mock/real GPS tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

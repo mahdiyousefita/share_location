@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Concentric radar pulse bands -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M39,39 C46,31 62,31 69,39">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="39"
+                android:startY="31"
+                android:endX="69"
+                android:endY="31">
+                <item android:offset="0" android:color="#2979FF" />
+                <item android:offset="1" android:color="#00E5FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M31,31 C42,19 66,19 77,31">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="31"
+                android:startY="19"
+                android:endX="77"
+                android:endY="19">
+                <item android:offset="0" android:color="#002979FF" />
+                <item android:offset="0.5" android:color="#8000E5FF" />
+                <item android:offset="1" android:color="#002979FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Beautifully styled solid location PIN with internal target ring -->
+    <!-- Base center pin center is at x=54, y=56 -->
+    <path
+        android:pathData="M54,34 C43.5,34 35,42.5 35,53 C35,63.5 54,82 54,82 C54,82 73,63.5 73,53 C73,42.5 64.5,34 54,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="35"
+                android:startY="34"
+                android:endX="73"
+                android:endY="82">
+                <item android:offset="0" android:color="#00E5FF" />
+                <item android:offset="1" android:color="#2979FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner white core ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,48 A5,5 0,1,0 54,58 A5,5 0,1,0 54,48 Z" />
+</vector>
